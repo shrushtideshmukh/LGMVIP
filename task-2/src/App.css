@@ -1,0 +1,115 @@
+
+.getuser
+{
+    border: none;
+    border-radius: 90%;
+    padding: 3.6rem 2.5rem;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0 5px 10px #b3b2b2;
+}
+.navbar
+{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    /* overflow: hidden; */
+    height: 75px;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+}
+.nav-data
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.search-box{
+ 
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+}
+
+.users
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    justify-content: center;
+    width: 100vw;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+}
+.user-profile
+{
+    height: 340px;
+    border:5px ;
+    position: relative;
+    border-radius: 20px;
+    margin: 7rem 3rem;
+    min-width: 250px;
+    max-width: 350px;
+    background-color: rgb(248, 248, 248);
+    transition: transform .3s ease;
+}
+
+.user-profile:hover{
+    transform: scale(1.1);
+}
+
+
+.avatar 
+{
+    position: absolute;
+    top: -20%;
+    border: 3px solid #ff00d4;
+    width: 150px;
+    height: 150px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    width: 125px;
+    height: 125px;
+}
+.avatar img
+{
+    width: 100%;
+    height: 100%;
+}
+.user-profile h4
+{
+    text-align: center;
+}
+.user-profile h6
+{
+    text-align: center;
+}
+.user-data
+{
+
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.middle
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 20rem;
+  background-color: #ff00d4;
+}
